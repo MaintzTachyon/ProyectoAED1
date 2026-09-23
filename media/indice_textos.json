@@ -1,0 +1,632 @@
+{
+  "00190c95c6eaefd4.svg": {
+    "archivo": "indicador_capitulo_02_de_05.svg",
+    "texto": "02 / 05",
+    "sha256": "63231756619d8c69d591c06c71c844763acad95dcb5ad833d6cfbf08bf46ee0f"
+  },
+  "00dd9dde3634ccf1.svg": {
+    "archivo": "tipo_lista_circular.svg",
+    "texto": "CIRCULAR",
+    "sha256": "4507fdaf4c885c30b7cfe3927d49c547dfa6cb24642163af2ecb9ab2788d4fa4"
+  },
+  "01d85beb84f6be13.svg": {
+    "archivo": "guion_en_cambio_buscar_un_valor_puede_requerir_recorrer_toda_la_lista.svg",
+    "texto": "En cambio, buscar un valor puede requerir recorrer toda la lista.",
+    "sha256": "10fb9f59fbb30cbfc23b560a99159dd83524c78e6e5105fcd5341ff2e98d22a3"
+  },
+  "02802062a51ac775.svg": {
+    "archivo": "titulo_seccion_cuantos_pasos_necesitamos.svg",
+    "texto": "¿Cuántos pasos necesitamos?",
+    "sha256": "a1843048d87f00b9c2b9b5b9eee8041cb2af2bd17bf057c8f2f1e6f06ce01295"
+  },
+  "03b0e3dde5ba522b.svg": {
+    "archivo": "guion_y_una_lista_circular_puede_modelar_turnos_que_se_repiten_por_ejemplo_entre_los_jugadores_de_una_partida.svg",
+    "texto": "Y una lista circular puede modelar turnos que se repiten, por ejemplo, entre los jugadores de una partida.",
+    "sha256": "363bf521313b42c28e9b5135979075ad6ba1cb09fd84abb984dc0ea062fc88dc"
+  },
+  "051ae4537e333197.svg": {
+    "archivo": "titulo_seccion_una_secuencia_de_nodos.svg",
+    "texto": "Una secuencia de nodos",
+    "sha256": "02123d6fb0c80180e87ad1547773593a6ecbd40328fb8340a699f3dfba99fae6"
+  },
+  "0742ce8d1f82bead.svg": {
+    "archivo": "guion_los_tres_valores_tienen_un_orden_aunque_sus_nodos_no_tienen_que_ocupar_posiciones_consecutivas_en_la_memoria.svg",
+    "texto": "Los tres valores tienen un orden, aunque sus nodos no tienen que ocupar posiciones consecutivas en la memoria.",
+    "sha256": "8681821895dc2b1150edd53cbfbb555eabe6dda9ae887a613d4b8dd1ed9a173e"
+  },
+  "0870283b8b4f916f.svg": {
+    "archivo": "valor_nodo_5.svg",
+    "texto": "5",
+    "sha256": "d1b765f6bd369460be8ea5be4e2cee8414095ff18dd0f2aedd74ac9ec106a48b"
+  },
+  "0c38b19d676996f0.svg": {
+    "archivo": "indicador_capitulo_01_de_05.svg",
+    "texto": "01 / 05",
+    "sha256": "15a1dcaddc69c67a8c5cbd78766779aaaba2ee8cd40ae15a3fe40d41438d3982"
+  },
+  "0d4df329285c1d39.svg": {
+    "archivo": "guion_para_recorrer_la_lista_empezamos_en_la_cabeza_y_avanzamos_de_nodo_en_nodo.svg",
+    "texto": "Para recorrer la lista, empezamos en la cabeza y avanzamos de nodo en nodo.",
+    "sha256": "a90abf38d5e110289bda7634eb5291c45bfeabf435ab2b49e26e75503ed94469"
+  },
+  "0e263c3c75930004.svg": {
+    "archivo": "guion_despues_hacemos_que_apunte_a_la_cabeza_actual_y_actualizamos_la_cabeza_para_que_sea_ese_nodo.svg",
+    "texto": "Después, hacemos que apunte a la cabeza actual y actualizamos la cabeza para que sea ese nodo.",
+    "sha256": "146d7723ca9c61f8e5fa81ba5acbc5607aafbd1dd1ccbeec4e1de57254f4e6b6"
+  },
+  "107aa81385597f0a.svg": {
+    "archivo": "guion_una_lista_enlazada_es_una_estructura_de_datos_formada_por_nodos.svg",
+    "texto": "Una lista enlazada es una estructura de datos formada por nodos.",
+    "sha256": "fc03c8ce7c29963296de2454f91d60d86590e1e2ba903f3e4275120755c9d0f2"
+  },
+  "125bb44211979eb4.svg": {
+    "archivo": "etiqueta_valor.svg",
+    "texto": "valor",
+    "sha256": "be8a4aea349cdacd6c45bd18bb9fe30ff25958f4f197827dbc4a3bc80e246571"
+  },
+  "18950367775cb447.svg": {
+    "archivo": "tipo_lista_simple.svg",
+    "texto": "SIMPLE",
+    "sha256": "fb2857ca55132da9c3d7b995b5b7b9279379ba2f5551ce52013e6d8e697ecf48"
+  },
+  "196b7f95daf4af89.svg": {
+    "archivo": "explicacion_parar_al_volver_al_nodo_inicial.svg",
+    "texto": "Parar al volver al nodo inicial",
+    "sha256": "c25d0a664eb72224b73619a834aa74f60403246c52b0d28745ea9af0b15e41aa"
+  },
+  "1c05f06f7333297b.svg": {
+    "archivo": "explicacion_seguir_y_modificar_referencias.svg",
+    "texto": "Seguir y modificar referencias",
+    "sha256": "86445ca8cc14b4c8398eef59d057cfb15236f73e094c0de0b730cc1c0a3bca86"
+  },
+  "1e7b199f020b9b88.svg": {
+    "archivo": "guion_veamos_como_insertar_un_elemento_al_inicio.svg",
+    "texto": "Veamos cómo insertar un elemento al inicio.",
+    "sha256": "0b41ae80676f8e0c6236bcd833db1a9674141409a307ee37b34947fc15544da0"
+  },
+  "1f612d327ca0cf26.svg": {
+    "archivo": "titulo_seccion_buscar_y_eliminar.svg",
+    "texto": "Buscar y eliminar",
+    "sha256": "2c195d04609028f0445e300fe79f6e65b38ef12b1d44b1a626e6b726d1acdd46"
+  },
+  "23a0f54a072f7ced.svg": {
+    "archivo": "etiqueta_null.svg",
+    "texto": "null",
+    "sha256": "779bdaa385cfa7730965537345b388852c840e9dcda3c1f333ace772b5c6b728"
+  },
+  "2bc52b60dd46946c.svg": {
+    "archivo": "etiqueta_historial_inicio.svg",
+    "texto": "Inicio",
+    "sha256": "8a4b1cecca5ba25a3bbf40d5e9c97294b4f24dddd799397959094f40047321e3"
+  },
+  "300347e663561548.svg": {
+    "archivo": "guion_veamos_sus_operaciones_principales.svg",
+    "texto": "Veamos sus operaciones principales.",
+    "sha256": "8890a0e26125cb3fbff867a79bfad1d801d9a2369baea62c4ab3172ce618b30f"
+  },
+  "318581de58e058d0.svg": {
+    "archivo": "valor_nodo_20.svg",
+    "texto": "20",
+    "sha256": "3111f1169147733c2e02c9674122c502351bdfa06defa37514e370a28abb3733"
+  },
+  "321a456f1d1b8b4a.svg": {
+    "archivo": "guion_una_tercera_variacion_es_la_lista_circular.svg",
+    "texto": "Una tercera variación es la lista circular.",
+    "sha256": "483a3201a187f4560b4e67de349035d80f7c34db0bdf752be5a69f4585a24abb"
+  },
+  "330c5dc16877bea0.svg": {
+    "archivo": "valor_nodo_30.svg",
+    "texto": "30",
+    "sha256": "96ef722a92d269e24bbffa2ade252ab0f91dab3cad4745331da9952d3eed21a3"
+  },
+  "335ae419dd586ba7.svg": {
+    "archivo": "guion_la_lista_conserva_todos_sus_elementos_pero_ahora_empieza_con_el_valor_recien_agregado.svg",
+    "texto": "La lista conserva todos sus elementos, pero ahora empieza con el valor recién agregado.",
+    "sha256": "26ec0ef19f9a5a11f7289d9ef3d93d745862fa1c985cc0c72b5c16823c2d9893"
+  },
+  "34573ef827f69c1c.svg": {
+    "archivo": "etiqueta_jugador_c.svg",
+    "texto": "C",
+    "sha256": "7d21bfb87387208bcb56e3fbcb905c30110a1ccd08a7ace5e1044a4954c66939"
+  },
+  "34e38ce9b4b6df25.svg": {
+    "archivo": "guion_tambien_podemos_insertar_elementos.svg",
+    "texto": "También podemos insertar elementos.",
+    "sha256": "f8f80eefdde386a4d0a4b924d116783013e769d302947ce7727d2e523907944c"
+  },
+  "3558dc254a1e9d2e.svg": {
+    "archivo": "guion_para_recorrer_la_lista_comenzamos_en_el_primer_nodo_llamado_cabeza.svg",
+    "texto": "Para recorrer la lista, comenzamos en el primer nodo, llamado cabeza.",
+    "sha256": "c8f97c8c7ce38908a312c3dfc6eacaa99882cd60dd1ffdc26eb6c03b0d24a9d0"
+  },
+  "363638e973d3a14f.svg": {
+    "archivo": "explicacion_donde_podemos_usar_estas_listas.svg",
+    "texto": "¿Dónde podemos usar estas listas?",
+    "sha256": "593a5e6f3dd726ad39a87433be777338aaec2293c0b0d65bce238703307488f4"
+  },
+  "365f64a15a7c4390.svg": {
+    "archivo": "guion_elegir_entre_una_lista_simple_doble_o_circular_depende_de_como_necesitemos_movernos_y_modificar_esa_secuencia.svg",
+    "texto": "Elegir entre una lista simple, doble o circular depende de cómo necesitemos movernos y modificar esa secuencia.",
+    "sha256": "74d69ce0a46dd222d8c861e1fbf018a40d7b1e702583c9c840b577a92763e502"
+  },
+  "3775afe8bb582f70.svg": {
+    "archivo": "guion_en_ambos_casos_la_cadena_vuelve_a_quedar_conectada.svg",
+    "texto": "En ambos casos, la cadena vuelve a quedar conectada.",
+    "sha256": "9dc125701933b8b95fb5972768ad9983b1ead45e115d6869580278555560dc48"
+  },
+  "3896917a404af999.svg": {
+    "archivo": "guion_hasta_ahora_hemos_descrito_una_lista_simplemente_enlazada_cada_nodo_conoce_solo_al_siguiente.svg",
+    "texto": "Hasta ahora hemos descrito una lista simplemente enlazada: cada nodo conoce solo al siguiente.",
+    "sha256": "d264c61ff238501bd0b09df64f27ccacfd4eebe6dfbc795e6f398be5b5cba135"
+  },
+  "3b77a84a6ae35416.svg": {
+    "archivo": "guion_seguimos_su_referencia_para_llegar_al_segundo_luego_al_tercero_y_asi_sucesivamente.svg",
+    "texto": "Seguimos su referencia para llegar al segundo, luego al tercero, y así sucesivamente.",
+    "sha256": "6b40d3832045df3e52529f24d4c25f7f66331d1eafafecd2c4ced43b10979899"
+  },
+  "3c387931a3d76420.svg": {
+    "archivo": "guion_si_queremos_insertarlo_en_medio_primero_debemos_llegar_a_la_posicion_deseada_y_luego_ajustar_las_referencias_para_conectar_el_nuevo_nodo_sin_perder_el.svg",
+    "texto": "Si queremos insertarlo en medio, primero debemos llegar a la posición deseada y luego ajustar las referencias para conectar el nuevo nodo sin perder el resto de la lista.",
+    "sha256": "843da9441ad6c8722e5394f7ad33108a4e4d53147f2301ad97120d3de0a67561"
+  },
+  "3c8a68768fc73be3.svg": {
+    "archivo": "indicador_capitulo_04_de_05.svg",
+    "texto": "04 / 05",
+    "sha256": "cb5990ef6a691af2ffb32fce3ad4f182b46be0307d0eec369b16c05a9d2f077d"
+  },
+  "3e37e972034ceeae.svg": {
+    "archivo": "guion_para_buscar_un_valor_hacemos_ese_mismo_recorrido_y_comparamos_cada_dato_hasta_encontrarlo_o_llegar_al_final.svg",
+    "texto": "Para buscar un valor, hacemos ese mismo recorrido y comparamos cada dato hasta encontrarlo o llegar al final.",
+    "sha256": "b8eafa0bcd5a246efb4b34c758b5ab6799d1a80f2fbde3b66050e5072091c04b"
+  },
+  "43e2a396df72a615.svg": {
+    "archivo": "explicacion_direccion_del_recorrido_inserciones_eliminaciones.svg",
+    "texto": "Dirección del recorrido · inserciones · eliminaciones",
+    "sha256": "78aeb8b5bc2e39fc9a844f2754c702ec099ba834b05e2141f93e32484a4bd87d"
+  },
+  "44efbbe0bb5466b1.svg": {
+    "archivo": "explicacion_reconectar_o_1_con_el_anterior_localizado.svg",
+    "texto": "Reconectar: O(1), con el anterior localizado",
+    "sha256": "faf0998d3de71a210ab11ba8e8461fdd72d1cef11a09dbca17870d5a0f6fb49f"
+  },
+  "4657f773ee787f80.svg": {
+    "archivo": "guion_una_lista_con_referencias_al_inicio_y_al_final_puede_ayudar_a_implementar_una_cola.svg",
+    "texto": "Una lista con referencias al inicio y al final puede ayudar a implementar una cola.",
+    "sha256": "d02e555abe272e9f05a1c3e73ae2bf4096c317be7464d2e193630be558286821"
+  },
+  "4a74549442dc81d3.svg": {
+    "archivo": "guion_si_lo_encontramos_podemos_eliminarlo_haciendo_que_el_nodo_anterior_apunte_al_siguiente.svg",
+    "texto": "Si lo encontramos, podemos eliminarlo haciendo que el nodo anterior apunte al siguiente.",
+    "sha256": "d4d36bc69efff1d71edafcdf4866a8a9ba516df9671ce9ff4d65584ba91f871e"
+  },
+  "5273172a79d86f4e.svg": {
+    "archivo": "tipo_lista_doble.svg",
+    "texto": "DOBLE",
+    "sha256": "d16182a911828861fdc2763dc47b2b5ad010af1f77085e07668b096dcccd0125"
+  },
+  "551b1804022042df.svg": {
+    "archivo": "explicacion_pila_insertar_y_retirar_por_el_inicio.svg",
+    "texto": "PILA · insertar y retirar por el inicio",
+    "sha256": "ea0ca971666c783e7822a8b58dee3e4da292f731ab5b5b2501d78570f970de46"
+  },
+  "59ca3d4eaa58d87c.svg": {
+    "archivo": "titulo_seccion_aplicaciones_pila_y_cola.svg",
+    "texto": "Aplicaciones: pila y cola",
+    "sha256": "553008b11a6f96d1437c52a9c3b220b5526d0b8d398787e48fd450fb2cf750cf"
+  },
+  "5ab4bd8c8ce3b70f.svg": {
+    "archivo": "guion_para_eliminar_un_elemento_ocurre_algo_parecido_primero_lo_localizamos_y_despues_cambiamos_las_referencias_para_que_la_lista_continue_conectada.svg",
+    "texto": "Para eliminar un elemento ocurre algo parecido: primero lo localizamos y después cambiamos las referencias para que la lista continúe conectada.",
+    "sha256": "6aaf3991729665e6af11aa21a88a8377b66732b0000af69607ed25f8fb4312cd"
+  },
+  "5bc9e5877f39c24c.svg": {
+    "archivo": "etiqueta_cabeza.svg",
+    "texto": "cabeza",
+    "sha256": "9e82af0b3db0b208a8fbbf3a4a4b6c94fd0a9f98a7a053cc0f637ac7bb9db086"
+  },
+  "5fe0977ca4aeb827.svg": {
+    "archivo": "complejidad_constante_o_1.svg",
+    "texto": "O(1)",
+    "sha256": "b53c523871869f1cecdd0a6a65bdfd89d086c041d95d9c7d2453e0095967c380"
+  },
+  "6120e553b2117aae.svg": {
+    "archivo": "titulo_seccion_circular_el_ultimo_vuelve_al_primero.svg",
+    "texto": "Circular: el último vuelve al primero",
+    "sha256": "41de4045190a83b803226f65374bc78097fce5130f9721a3fde3fb053570eae3"
+  },
+  "62edcd71a1ab92ca.svg": {
+    "archivo": "explicacion_limite_acceder_a_una_posicion_requiere_recorrer.svg",
+    "texto": "Límite: acceder a una posición requiere recorrer",
+    "sha256": "1883067bbcad9ca18e41ed999f0a7f364c20a0dab7f960f43e72949137488efe"
+  },
+  "6617a115635cd489.svg": {
+    "archivo": "valor_nodo_15.svg",
+    "texto": "15",
+    "sha256": "5512e2c03de2514b9a4177ba4080190d6fd8b8e43f209d141a8a8527d4c9b8c9"
+  },
+  "6637e156bb148241.svg": {
+    "archivo": "guion_insertar_al_inicio_requiere_una_cantidad_constante_de_pasos.svg",
+    "texto": "Insertar al inicio requiere una cantidad constante de pasos.",
+    "sha256": "4c5a05447ec1cef1e33664fc660019dc64b1b480a82ce7fdd0116c3561c43011"
+  },
+  "685786ed5eab2c8a.svg": {
+    "archivo": "guion_una_linked_list_o_lista_enlazada_es_una_estructura_de_datos_que_organiza_elementos_mediante_conexiones_entre_nodos.svg",
+    "texto": "Una linked list, o lista enlazada, es una estructura de datos que organiza elementos mediante conexiones entre nodos.",
+    "sha256": "bcccb2975ab021f59e752da26d084f3e048e5095a5b40cc7c639ab8fe4aa7bab"
+  },
+  "68ee0d0cea054be1.svg": {
+    "archivo": "guion_el_ultimo_indica_que_no_hay_un_nodo_siguiente.svg",
+    "texto": "El último indica que no hay un nodo siguiente.",
+    "sha256": "098949f7cb490fbe5e411c34eba23e497f9f329e83dbde3335494d48f1f1b191"
+  },
+  "6c866986625c5d94.svg": {
+    "archivo": "explicacion_cola_retirar_al_inicio_agregar_al_final.svg",
+    "texto": "COLA · retirar al inicio / agregar al final",
+    "sha256": "4c4af17bae41494dc6bbd4a17a4486f073e392e5387ec358f8b93d63940fe58b"
+  },
+  "6eab4013c765312f.svg": {
+    "archivo": "titulo_linked_list_ingles.svg",
+    "texto": "Linked list",
+    "sha256": "27b5434c96d77a3f54218991e640315d5dc8bbfd3534a27a2ae0274e86a47eba"
+  },
+  "6f83c40ef066bb24.svg": {
+    "archivo": "titulo_lista_enlazada.svg",
+    "texto": "LISTA ENLAZADA",
+    "sha256": "cdcfdf39b594dd94da3668673b96dbbd9062e6e3d509f1c0a96faab240b6eab5"
+  },
+  "7043380eba5316d9.svg": {
+    "archivo": "guion_una_lista_simplemente_enlazada_puede_servir_para_implementar_una_pila_donde_agregamos_y_retiramos_elementos_por_el_inicio.svg",
+    "texto": "Una lista simplemente enlazada puede servir para implementar una pila, donde agregamos y retiramos elementos por el inicio.",
+    "sha256": "c84b299d98ba0a783b2b95d896980d7b0a2b21b8b7823a7049ff2253c74841f5"
+  },
+  "72177d6badec4dec.svg": {
+    "archivo": "indicador_capitulo_08_de_09.svg",
+    "texto": "08 / 09",
+    "sha256": "61814a1f9cc76b9fb0c6862c03092e97b71b5f570e0e18b35f12e7639156896b"
+  },
+  "76e181237ca28396.svg": {
+    "archivo": "guion_existe_tambien_la_lista_doblemente_enlazada_en_la_que_cada_nodo_tiene_una_referencia_al_siguiente_y_otra_al_anterior.svg",
+    "texto": "Existe también la lista doblemente enlazada, en la que cada nodo tiene una referencia al siguiente y otra al anterior.",
+    "sha256": "2351494b2b0ff192c142019505a14eeb80b8b63622aeb350cf1e674328d4fa83"
+  },
+  "826d7c30b1d23865.svg": {
+    "archivo": "indicador_capitulo_05_de_09.svg",
+    "texto": "05 / 09",
+    "sha256": "871f30449faa3d1ca81731ac94968455e7b75b17741dfc0c5838b80c6e47b4de"
+  },
+  "839447cd7615668e.svg": {
+    "archivo": "etiqueta_null_variante_2.svg",
+    "texto": "null",
+    "sha256": "c0164b8bea0e31700253ec5f46a6eef00493571ae77092b8a3d19216888f14e6"
+  },
+  "8a8c71e0ea7678fe.svg": {
+    "archivo": "titulo_seccion_insertar_conectar_sin_perder_la_lista.svg",
+    "texto": "Insertar: conectar sin perder la lista",
+    "sha256": "787df5353d4aaade145780d1dae8ce7bbc62ee2bfbce9d0e0d8509afe20defb7"
+  },
+  "8b05b92831043ed4.svg": {
+    "archivo": "guion_imaginemos_una_lista_con_los_valores_diez_veinte_y_treinta.svg",
+    "texto": "Imaginemos una lista con los valores diez, veinte y treinta.",
+    "sha256": "75f7fed052f40d4e32fd81432aee47eb43f381facb93b3c93134732f58fcc0ef"
+  },
+  "93acb72bad58be82.svg": {
+    "archivo": "guion_al_recorrerla_debemos_establecer_una_condicion_de_parada_porque_nunca_encontraremos_un_final_marcado_por_una_referencia_nula.svg",
+    "texto": "Al recorrerla debemos establecer una condición de parada, porque nunca encontraremos un final marcado por una referencia nula.",
+    "sha256": "31672b2681f561330f4dae6c6d8d8c5c6893405c884f3c1627782760d6a8c7ef"
+  },
+  "94644e8bf6004590.svg": {
+    "archivo": "titulo_seccion_aplicaciones_historial_y_turnos.svg",
+    "texto": "Aplicaciones: historial y turnos",
+    "sha256": "1974e076ff68424f414163b86fae7b3650dadd37c4979db652e49b5964ede2e5"
+  },
+  "9573e0c480b743fe.svg": {
+    "archivo": "indicador_capitulo_02_de_09.svg",
+    "texto": "02 / 09",
+    "sha256": "0d071d5535aca0d23ed66cd9a55ca09f6342de7fcbcf9d01939e949f1247be1a"
+  },
+  "9669210d25ec6924.svg": {
+    "archivo": "explicacion_localizar_o_n_en_el_peor_caso.svg",
+    "texto": "Localizar: O(n) en el peor caso",
+    "sha256": "8ebd871c2ac93804ed3e39c1005eac2a3420b29f70583310bf4c604d2554f093"
+  },
+  "96a74ea972d06c45.svg": {
+    "archivo": "guion_si_seguimos_las_referencias_desde_la_cabeza_podemos_recorrer_la_lista_hasta_llegar_al_final.svg",
+    "texto": "Si seguimos las referencias desde la cabeza, podemos recorrer la lista hasta llegar al final.",
+    "sha256": "ee49694e2999603b1f3f0a54f102945ba3433dbc1cd10bd5a275ea1393ad9998"
+  },
+  "97c1672b60a5f7e4.svg": {
+    "archivo": "guion_primero_creamos_un_nodo_nuevo.svg",
+    "texto": "Primero creamos un nodo nuevo.",
+    "sha256": "05c84f7efa368ac9ce2bf63233732f10b8f28be9c295f1cd2927b6f892caf958"
+  },
+  "9bc7426731e79e48.svg": {
+    "archivo": "etiqueta_referencia.svg",
+    "texto": "referencia",
+    "sha256": "26f7adc48239346049210b5afce825e79cf4fbb007e376aa5e3eecf3a89a8d98"
+  },
+  "9d1d4b41780fef80.svg": {
+    "archivo": "indicador_capitulo_05_de_05.svg",
+    "texto": "05 / 05",
+    "sha256": "8f5616bf9ba5e5970656a6a4843c78a9de8a39dbb8080757282d0dbfe78e1b1c"
+  },
+  "9d268ad2570bd5f9.svg": {
+    "archivo": "subtitulo_portada_nodos_referencias_operaciones.svg",
+    "texto": "Nodos · referencias · operaciones",
+    "sha256": "bf560279bd71c6daefb9183b18f2dda4c97e951efd0c593885ca799f5970d9d7"
+  },
+  "9de180dd446154aa.svg": {
+    "archivo": "guion_puede_ser_simplemente_o_doblemente_enlazada.svg",
+    "texto": "Puede ser simplemente o doblemente enlazada.",
+    "sha256": "df26cb5ce36a34cd19283b0d45200e4d859948bd879cb3673daf5be140dd17e5"
+  },
+  "a297dd94c50ba2ef.svg": {
+    "archivo": "guion_cada_nodo_guarda_un_valor_y_una_referencia_al_siguiente_nodo.svg",
+    "texto": "Cada nodo guarda un valor y una referencia al siguiente nodo.",
+    "sha256": "fe7834f4497b7851a2871192d3ce920eab6d2377d77cf003a5a20abf26809889"
+  },
+  "a2d554fa0234a5a6.svg": {
+    "archivo": "explicacion_busqueda_o_n_en_el_peor_caso.svg",
+    "texto": "Búsqueda: O(n) en el peor caso",
+    "sha256": "fe516c78ab4c975d31ee10adcb1c15209b13d947b370a90cdb6dad7f1cc5d048"
+  },
+  "a367d21f037a8f57.svg": {
+    "archivo": "titulo_seccion_recorrer_y_buscar.svg",
+    "texto": "Recorrer y buscar",
+    "sha256": "5efd4edaa2d32e558969fc2ee49241cd2f61115e4b77c15535cf7f6d6ea2fb7c"
+  },
+  "a46cfbce171f6435.svg": {
+    "archivo": "titulo_seccion_recorrer_seguir_las_referencias.svg",
+    "texto": "Recorrer: seguir las referencias",
+    "sha256": "f76e99580673862648a71f241f3213c2beca90f125b7b5a6c4ff22a55c6214b1"
+  },
+  "a48de9a0dfc8f536.svg": {
+    "archivo": "guion_en_ella_el_ultimo_nodo_vuelve_a_conectarse_con_el_primero.svg",
+    "texto": "En ella, el último nodo vuelve a conectarse con el primero.",
+    "sha256": "a863b578d4e92557997eaaec1ec565623e88ba1453a97ff956489c5b0d67df68"
+  },
+  "a5c9436facb09d73.svg": {
+    "archivo": "indicador_capitulo_03_de_05.svg",
+    "texto": "03 / 05",
+    "sha256": "020bcdfc334b9f6454a5ca2acb29e9d3ed91f5eee3cd86a5df6801c94e011711"
+  },
+  "a7d0286322b687b9.svg": {
+    "archivo": "indicador_capitulo_09_de_09.svg",
+    "texto": "09 / 09",
+    "sha256": "e583c764c170038e352b6d6a7b9355a914778ea150f51cd5ea70cf1dcc192091"
+  },
+  "a8636feb80fc01d8.svg": {
+    "archivo": "explicacion_buscar_20.svg",
+    "texto": "Buscar: 20",
+    "sha256": "989561ee8de17b8174d5420caad94063d14b2f000718d94b54286919f00fcd05"
+  },
+  "b4c18f41f5554973.svg": {
+    "archivo": "guion_la_lista_doblemente_enlazada_resulta_util_cuando_necesitamos_avanzar_y_retroceder_como_al_representar_un_historial_de_navegacion.svg",
+    "texto": "La lista doblemente enlazada resulta útil cuando necesitamos avanzar y retroceder, como al representar un historial de navegación.",
+    "sha256": "d5d1ef03cd46eb1fe4fc00a8a783aa9c56c7dbc45114a91c7b1ca5fea0c469f7"
+  },
+  "b63b6b9d33126bb0.svg": {
+    "archivo": "indicador_capitulo_01_de_09.svg",
+    "texto": "01 / 09",
+    "sha256": "fc8a6ba2ee405f89c3c08d9988ee8a7599b149a22a97808d16cc103cd4c1e9b8"
+  },
+  "b648726f37b21bc4.svg": {
+    "archivo": "guion_por_eso_si_la_lista_tiene_muchos_elementos_una_busqueda_puede_requerir_revisar_todos_sus_nodos.svg",
+    "texto": "Por eso, si la lista tiene muchos elementos, una búsqueda puede requerir revisar todos sus nodos.",
+    "sha256": "8edf8ea3f8e98b15b9bb9cd577b6d514e76001ad2731db3e5d33711abbfef0e7"
+  },
+  "b777238f7184438d.svg": {
+    "archivo": "titulo_operacion_insertar_al_inicio.svg",
+    "texto": "Insertar al inicio",
+    "sha256": "fc2dffc46ee4dfa4a8d09856977fc589c053cef84855888587b7e1bb32905eeb"
+  },
+  "babc3e66f87cbea9.svg": {
+    "archivo": "etiqueta_null_variante_3.svg",
+    "texto": "null",
+    "sha256": "44351a89fbcf9bbbad62e6bb8accaa5cf432b96f3569d2574058ff54722663ff"
+  },
+  "baeefc187271600b.svg": {
+    "archivo": "guion_el_primer_nodo_se_conoce_como_cabeza.svg",
+    "texto": "El primer nodo se conoce como cabeza.",
+    "sha256": "58b1d434e7b98c2080397f10655d6e20a10ccba3f03dedaf85f44da3c7a6cb9d"
+  },
+  "bb1ccdd7e5a570e2.svg": {
+    "archivo": "etiqueta_historial_perfil.svg",
+    "texto": "Perfil",
+    "sha256": "dbb48c33b82b858b2a397c070b0ca0752fc22e8a1a58ee4569adefff850d08ea"
+  },
+  "bc632606440ceec0.svg": {
+    "archivo": "complejidad_lineal_o_n.svg",
+    "texto": "O(n)",
+    "sha256": "7c3fc961cd82506942b14116093bc26e5c0ef63abf08f2a598c2dc468586604f"
+  },
+  "bca7a10bf35ddb0b.svg": {
+    "archivo": "explicacion_siguiente_anterior_una_referencia_extra_por_nodo.svg",
+    "texto": "siguiente + anterior = una referencia extra por nodo",
+    "sha256": "0597faeb6207120ce07c2c8e5070fa89e94ee4f22bc928024fdf7730d4bb6807"
+  },
+  "bcd893ee9b4c7ba9.svg": {
+    "archivo": "guion_esa_es_la_idea_central_de_una_lista_enlazada_sus_nodos_forman_una_secuencia_mediante_referencias_que_podemos_seguir_y_modificar.svg",
+    "texto": "Esa es la idea central de una lista enlazada: sus nodos forman una secuencia mediante referencias que podemos seguir y modificar.",
+    "sha256": "7f2678d141788a08c3218b2f553a088a9b0c344316bf06946124b2fc0ec29ae5"
+  },
+  "bd05556e05621072.svg": {
+    "archivo": "valor_nodo_10.svg",
+    "texto": "10",
+    "sha256": "2520e24c819c3f31b84bcb1457cd08c09edb8b963c4a613a8984f446413a4702"
+  },
+  "be3662a7ada535f1.svg": {
+    "archivo": "titulo_operacion_insertar_al_inicio_variante_2.svg",
+    "texto": "Insertar al inicio",
+    "sha256": "539c52bc9acab96c609bc145d279b9e2b2e53217ac14178a0be31241406dbb91"
+  },
+  "bf11ee7e44181990.svg": {
+    "archivo": "explicacion_como_necesitamos_acceder_a_los_datos.svg",
+    "texto": "¿Cómo necesitamos acceder a los datos?",
+    "sha256": "d6968911c40a8efd9f4cfbd4098204a47e90bb7bf317dc67a5fbc7aad5eb8c03"
+  },
+  "bf7934e1aaca05b4.svg": {
+    "archivo": "etiqueta_referencia_variante_2.svg",
+    "texto": "referencia",
+    "sha256": "30569a78c8d93468c91ab04e775a7a87b307b1711d64e6ee2e45aaa1d8b7cff3"
+  },
+  "c09c4bc73027101e.svg": {
+    "archivo": "explicacion_hasta_n_nodos_en_el_peor_caso.svg",
+    "texto": "Hasta n nodos en el peor caso",
+    "sha256": "23606df46016fac2cb878cf0f7fa3fc0b574b8fd027ba6d9b6fa4b9ffd2d2f0f"
+  },
+  "c09cab85c0b7c179.svg": {
+    "archivo": "guion_si_eliminamos_el_primer_nodo_simplemente_actualizamos_la_cabeza.svg",
+    "texto": "Si eliminamos el primer nodo, simplemente actualizamos la cabeza.",
+    "sha256": "c382b07a2eff79b68825c5e508e03c051318dc09ce5504e5f58c182596951611"
+  },
+  "c468b6e236bc7cb7.svg": {
+    "archivo": "guion_para_agregar_uno_al_inicio_creamos_un_nodo_hacemos_que_apunte_a_la_cabeza_actual_y_convertimos_ese_nodo_en_la_nueva_cabeza.svg",
+    "texto": "Para agregar uno al inicio, creamos un nodo, hacemos que apunte a la cabeza actual y convertimos ese nodo en la nueva cabeza.",
+    "sha256": "e8e691cd24ab4b890c9fe0ca7c71ab4b4a87bb0f790eb169420604f36dce4a3d"
+  },
+  "c63ed85b30145080.svg": {
+    "archivo": "etiqueta_final.svg",
+    "texto": "final",
+    "sha256": "acd93c19e469bea3096a1a3bfa10632c4b75080223f2fba493cd9b9654fda771"
+  },
+  "c9cc99bc4c7be1c0.svg": {
+    "archivo": "explicacion_cantidad_constante_de_pasos.svg",
+    "texto": "Cantidad constante de pasos",
+    "sha256": "ea8a63fec012c993a95b86d5707dfaf7bb98ba4a321e2ced1e2b5d760764c1ea"
+  },
+  "cc324692ff9e9db6.svg": {
+    "archivo": "guion_una_linked_list_o_lista_enlazada_es_una_estructura_de_datos_que_organiza_elementos_mediante_conexiones_entre_nodos_variante_2.svg",
+    "texto": "Una *linked list*, o lista enlazada, es una estructura de datos que organiza elementos mediante conexiones entre nodos.",
+    "sha256": "47d2f5c015b54ee2553c9f9105f28d61e9ae6969dc1682b759d287ff281b7cc0"
+  },
+  "cd2e9ece2bbe3fea.svg": {
+    "archivo": "guion_a_diferencia_de_un_arreglo_sus_elementos_no_necesitan_estar_ubicados_uno_al_lado_del_otro_en_la_memoria_las_referencias_son_las_que_mantienen_la_secue.svg",
+    "texto": "A diferencia de un arreglo, sus elementos no necesitan estar ubicados uno al lado del otro en la memoria: las referencias son las que mantienen la secuencia.",
+    "sha256": "06017eafda65e7d2075be66c5d1021afa6e2ef9c42bb669af613df81154673d9"
+  },
+  "d1bbf89e6b923054.svg": {
+    "archivo": "titulo_seccion_elegir_segun_el_recorrido_y_los_cambios.svg",
+    "texto": "Elegir según el recorrido y los cambios",
+    "sha256": "0eedabc5b51e05913d422a662f66d7ed742aa677b755d23047d62c509e7fa8b9"
+  },
+  "d2b41f21d51a13aa.svg": {
+    "archivo": "etiqueta_dato.svg",
+    "texto": "dato",
+    "sha256": "351988c46a77b29035cc63e805098ab48479f4298fb149fe049f77fcc113bdf5"
+  },
+  "d32aa634115d4ece.svg": {
+    "archivo": "explicacion_puede_ser_simple_o_doble.svg",
+    "texto": "Puede ser simple o doble",
+    "sha256": "deaf27677469df81701e995768196be3225a2e04dcc0f3f66177b53af1e8c0c7"
+  },
+  "d45c691c253676b4.svg": {
+    "archivo": "titulo_seccion_simple_y_doblemente_enlazada.svg",
+    "texto": "Simple y doblemente enlazada",
+    "sha256": "19c4fab57fedd868bd802b0d30f1e467c888076237ce60e77206e7d42cec7dc7"
+  },
+  "d535641c9a1ed73c.svg": {
+    "archivo": "indicador_capitulo_04_de_09.svg",
+    "texto": "04 / 09",
+    "sha256": "9fceb321acd2f530eeddd469dc5f77b4296afda0b5dc3996911cda33e33b3649"
+  },
+  "d53edb08f6b18a5e.svg": {
+    "archivo": "guion_si_el_nodo_eliminado_era_la_cabeza_actualizamos_la_cabeza.svg",
+    "texto": "Si el nodo eliminado era la cabeza, actualizamos la cabeza.",
+    "sha256": "3eaca02e9d24637a606f3c0572d68cff9d07482840d37bbdf637101ab8bce194"
+  },
+  "d577229466a5cbf8.svg": {
+    "archivo": "indicador_capitulo_07_de_09.svg",
+    "texto": "07 / 09",
+    "sha256": "3208230ae6e09787406eb02ba3fd20edbb8c0aedd993caf8dad7be81e6314a74"
+  },
+  "d58e9e99ff6e5a83.svg": {
+    "archivo": "guion_en_resumen_una_lista_enlazada_construye_una_secuencia_conectando_nodos_mediante_referencias.svg",
+    "texto": "En resumen, una lista enlazada construye una secuencia conectando nodos mediante referencias.",
+    "sha256": "fb5f949bf5a2106d343d738f903fcb15f2638b46272be437922e1a4bb69f1eb7"
+  },
+  "d85e6fbd2714c1ca.svg": {
+    "archivo": "guion_su_limitacion_es_que_para_llegar_a_una_posicion_concreta_normalmente_debemos_recorrer_la_lista_desde_un_extremo.svg",
+    "texto": "Su limitación es que, para llegar a una posición concreta, normalmente debemos recorrer la lista desde un extremo.",
+    "sha256": "7c5a970af1944bca7914978a41bcca1fcb3574b32f3e997359028e140b65c4f7"
+  },
+  "d8ecf0c321fe903f.svg": {
+    "archivo": "titulo_operacion_buscar_un_valor.svg",
+    "texto": "Buscar un valor",
+    "sha256": "7cbbd065d50710caef2c715f854d993625531e86c70015331afeda0f213c8da2"
+  },
+  "daaf9cfed1cd9c4a.svg": {
+    "archivo": "etiqueta_jugador_a.svg",
+    "texto": "A",
+    "sha256": "6f604ec999a01f58322270d910d94b925144a6fa2e93c27873c27fe721ff725c"
+  },
+  "e1e968782c43ef4b.svg": {
+    "archivo": "guion_la_cabeza_apunta_al_nodo_que_contiene_diez_ese_nodo_apunta_al_de_veinte_y_el_de_veinte_apunta_al_de_treinta.svg",
+    "texto": "La cabeza apunta al nodo que contiene diez; ese nodo apunta al de veinte, y el de veinte apunta al de treinta.",
+    "sha256": "d6c838ee083a148a4d7e83a8eca6f93247ffafd2ee6cee44e9b6a973a887048e"
+  },
+  "e9291fca51ee86e6.svg": {
+    "archivo": "guion_es_importante_distinguir_estos_pasos_modificar_las_conexiones_puede_ser_rapido_pero_encontrar_el_lugar_donde_debemos_hacerlo_puede_tomar_mas_tiempo.svg",
+    "texto": "Es importante distinguir estos pasos: modificar las conexiones puede ser rápido, pero encontrar el lugar donde debemos hacerlo puede tomar más tiempo.",
+    "sha256": "5fcf0e849d0df6363240101358fe5e6670797ee211920a62a2041c30abb40d9b"
+  },
+  "ec3ef773e962c55a.svg": {
+    "archivo": "guion_esto_permite_recorrerla_en_ambas_direcciones_y_facilita_ciertas_eliminaciones_aunque_cada_nodo_necesita_espacio_para_una_referencia_adicional.svg",
+    "texto": "Esto permite recorrerla en ambas direcciones y facilita ciertas eliminaciones, aunque cada nodo necesita espacio para una referencia adicional.",
+    "sha256": "3e7219df030392ead5bae104d56eb2ea174bbddd7748935ffcbbd7a436ea4149"
+  },
+  "eea7ce752bf9520d.svg": {
+    "archivo": "guion_su_principal_ventaja_aparece_cuando_necesitamos_insertar_o_eliminar_elementos_ajustando_conexiones_siempre_que_ya_sepamos_donde_hacerlo.svg",
+    "texto": "Su principal ventaja aparece cuando necesitamos insertar o eliminar elementos ajustando conexiones, siempre que ya sepamos dónde hacerlo.",
+    "sha256": "94c3d85d9fec936a86fb09667c30739adac3874ef42014d720b53fafe3545126"
+  },
+  "f26d3ceb68be9245.svg": {
+    "archivo": "explicacion_buscar_30_comparar_cada_dato.svg",
+    "texto": "Buscar 30: comparar cada dato",
+    "sha256": "8c93277c60ef839c2365133346f0d89223f0683850892d5bd14d8a29cd1286b7"
+  },
+  "f32ccd1b7097491c.svg": {
+    "archivo": "titulo_seccion_eliminar_localizar_y_reconectar.svg",
+    "texto": "Eliminar: localizar y reconectar",
+    "sha256": "1a59b0b1db3657d77ad6eef12db859f98fd3afa352fbda3b7e4f83447ea99481"
+  },
+  "f4885a2a9f3590af.svg": {
+    "archivo": "guion_cada_nodo_almacena_un_dato_y_como_minimo_una_referencia_al_siguiente_nodo.svg",
+    "texto": "Cada nodo almacena un dato y, como mínimo, una referencia al siguiente nodo.",
+    "sha256": "f32df1e0294c7ea10b3ae1c09bafafc2b8912199a09cbadde994315c1d88b3bd"
+  },
+  "f554fccec8883973.svg": {
+    "archivo": "guion_para_buscar_un_valor_recorremos_los_nodos_uno_por_uno_y_comparamos_su_contenido.svg",
+    "texto": "Para buscar un valor, recorremos los nodos uno por uno y comparamos su contenido.",
+    "sha256": "5c7b4a84e362f70c6fda7e67a637b05c9642216c7b43eb0de588ed471a548d44"
+  },
+  "f7bbf25fb12b8b91.svg": {
+    "archivo": "etiqueta_jugador_b.svg",
+    "texto": "B",
+    "sha256": "b63dc247da4f93451a1c8ee6da3a8e08d5ed56b6aa6488c65c617b0fb867802b"
+  },
+  "f85e44d2268cdc42.svg": {
+    "archivo": "indicador_capitulo_03_de_09.svg",
+    "texto": "03 / 09",
+    "sha256": "1bee557d6fffec3005de747b13f9b13e35928f2c7d4c756fd2e66169d132e059"
+  },
+  "f97098a633303dfd.svg": {
+    "archivo": "guion_cuando_encontramos_una_referencia_nula_sabemos_que_hemos_llegado_al_final.svg",
+    "texto": "Cuando encontramos una referencia nula, sabemos que hemos llegado al final.",
+    "sha256": "932a9a7c6a766aa436d1b262dd2a6f5c8c06a6b59ffc5499bd2462bdcd1292a9"
+  },
+  "f9ec406a36bf6886.svg": {
+    "archivo": "etiqueta_historial_articulo.svg",
+    "texto": "Artículo",
+    "sha256": "bdc96d43974666c9fcb343aeb98e642e7557635c77c8272689396e00dc74809d"
+  },
+  "fbd1ffa236bdb72f.svg": {
+    "archivo": "explicacion_ventaja_ajustar_conexiones_en_un_lugar_conocido.svg",
+    "texto": "Ventaja: ajustar conexiones en un lugar conocido",
+    "sha256": "480e14d8b721423a745463602f4e2c1bbb004962f36a8164e6306fb2a4abd684"
+  },
+  "fcaa407e1f47dab1.svg": {
+    "archivo": "indicador_capitulo_06_de_09.svg",
+    "texto": "06 / 09",
+    "sha256": "ea1331fc29d5a29b508f096d029907c26e94ba1ba787ffa8b46671453cbe952f"
+  }
+}
