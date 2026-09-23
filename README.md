@@ -54,7 +54,6 @@ En una lista doble se puede avanzar y retroceder porque cada nodo tiene dos refe
 - `requirements.txt`: versión de Manim utilizada.
 - `media/texts/`: archivos SVG con los textos de la animación.
 - `media/indice_textos.json`: relaciona los nombres de los textos con sus archivos SVG.
-- `linked_list.srt`: subtítulos de una versión anterior; no son necesarios para ejecutar el programa.
 - `LinkedListLesson_2K.mp4` y `LinkedListLesson.mpg`: videos finales.
 
 ## Ejecución
