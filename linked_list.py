@@ -83,8 +83,10 @@ class LinkedListLesson(Scene):
             self.wait(1.1)
         for animacion in secuencia:
             self.play(animacion, run_time=0.7)
-        tiempo_restante = duracion - (self.time - inicio)
-        self.wait(max(0.8, tiempo_restante))
+        # Ajusta las pausas a fotogramas completos para mantener los 2:30.
+        fps = config.frame_rate
+        fotogramas_restantes = round(duracion * fps) - round((self.time - inicio) * fps)
+        self.wait(max(round(0.8 * fps), fotogramas_restantes) / fps - 1e-8)
 
     # Esta función mueve un punto por la lista de este video.
     def animar_recorrido(self, nodos, fin):
@@ -135,43 +137,43 @@ class LinkedListLesson(Scene):
         self.cambiar_titulo(1, 'Una secuencia de nodos')
         nodos, flechas, fin, cabeza = crear_lista()
         a, b, c = nodos
-        self.mostrar_parte(6.429, *[Indicate(n, color=VERDE) for n in nodos])
+        self.mostrar_parte(110 / 30, *[Indicate(n, color=VERDE) for n in nodos])
         etiquetas = VGroup(texto('dato', 22, GRIS).move_to([-4.1, -0.9, 0]),
             texto('referencia', 22, VERDE).move_to([-2.1, -0.9, 0]))
-        self.mostrar_parte(4.643, FadeIn(etiquetas), Indicate(a))
+        self.mostrar_parte(89 / 30, FadeIn(etiquetas), Indicate(a))
         self.play(FadeOut(etiquetas), run_time=0.3)
-        self.mostrar_parte(4, Indicate(cabeza))
+        self.mostrar_parte(82 / 30, Indicate(cabeza))
         cursor = marcar(a)
-        self.mostrar_parte(5.357,
+        self.mostrar_parte(136 / 30,
             Create(cursor),
             secuencia=[Transform(cursor, marcar(b)), Transform(cursor, marcar(c)), Transform(cursor, marcar(fin))])
         self.play(FadeOut(cursor), run_time=0.3)
-        self.mostrar_parte(4, *[Indicate(n[2]) for n in nodos])
-        self.mostrar_parte(7.857, secuencia=[Indicate(cabeza), Indicate(flechas[0]), Indicate(flechas[1])])
-        self.mostrar_parte(4, Indicate(fin))
+        self.mostrar_parte(82 / 30, *[Indicate(n[2]) for n in nodos])
+        self.mostrar_parte(165 / 30, secuencia=[Indicate(cabeza), Indicate(flechas[0]), Indicate(flechas[1])])
+        self.mostrar_parte(82 / 30, Indicate(fin))
         self.remove(*flechas, cabeza)
         flechas_moviles = [always_redraw(lambda: self.crear_flecha(a, b)),
             always_redraw(lambda: self.crear_flecha(b, c)),
             always_redraw(lambda: self.crear_flecha(c, fin))]
         self.add(*flechas_moviles)
-        self.mostrar_parte(6.429, a.animate.shift(UP * 0.55), b.animate.shift(DOWN * 0.6), c.animate.shift(UP * 0.35))
+        self.mostrar_parte(110 / 30, a.animate.shift(UP * 0.55), b.animate.shift(DOWN * 0.6), c.animate.shift(UP * 0.35))
         for flecha in flechas_moviles:
             flecha.clear_updaters()
 
         limpiar_escena(2, 'Recorrer y buscar')
         nodos, flechas, fin, cabeza = crear_lista()
         a, b, c = nodos
-        self.mostrar_parte(4, Indicate(cabeza))
+        self.mostrar_parte(82 / 30, Indicate(cabeza))
         cursor = marcar(a)
         self.animar_recorrido(nodos, fin)
         self.wait(1)
         destino = texto('Buscar 30: comparar cada dato', 27, AMARILLO).move_to([0, -1.25, 0])
-        self.mostrar_parte(6.429,
+        self.mostrar_parte(149 / 30,
             FadeIn(destino),
             Create(cursor),
             secuencia=[Transform(cursor, marcar(b)), Transform(cursor, marcar(c)), Indicate(c, color=AMARILLO)])
         costo = texto('Búsqueda: O(n) en el peor caso', 27, AMARILLO).move_to(destino)
-        self.mostrar_parte(5.714, ReplacementTransform(destino, costo))
+        self.mostrar_parte(102 / 30, ReplacementTransform(destino, costo))
 
         limpiar_escena(3, 'Insertar: conectar sin perder la lista')
         a, b, c = [self.crear_nodo(v, x) for v, x in zip([10, 20, 30], [-1.5, 1.3, 4.1])]
@@ -179,14 +181,14 @@ class LinkedListLesson(Scene):
         cabeza = self.cabeza(a)
         fin = texto('null', 24, GRIS).move_to([6, 0, 0])
         self.add(a, b, c, ab, bc, cabeza, fin, self.crear_flecha(c, fin))
-        self.mostrar_parte(4, Indicate(cabeza))
+        self.mostrar_parte(82 / 30, Indicate(cabeza))
         nuevo = self.crear_nodo(5, -4.3)
         na = self.crear_flecha(nuevo, a)
-        self.mostrar_parte(8.214, FadeIn(nuevo), secuencia=[Create(na), Transform(cabeza, self.cabeza(nuevo))])
+        self.mostrar_parte(157 / 30, FadeIn(nuevo), secuencia=[Create(na), Transform(cabeza, self.cabeza(nuevo))])
         intermedio = self.crear_nodo(15, -0.1, -1.3)
         mb = Arrow(intermedio.get_right(), b.get_bottom(), buff=0.12, color=VERDE)
         am = Arrow(a.get_bottom(), intermedio.get_left(), buff=0.12, color=AMARILLO)
-        self.mostrar_parte(10.357,
+        self.mostrar_parte(195 / 30,
             Indicate(a, color=AMARILLO),
             secuencia=[FadeIn(intermedio), Create(mb), AnimationGroup(FadeOut(ab), Create(am))])
 
@@ -198,21 +200,21 @@ class LinkedListLesson(Scene):
             c.get_bottom() + DOWN * 0.08,
             angle=PI / 3,
             color=AMARILLO)
-        self.mostrar_parte(7.5,
+        self.mostrar_parte(161 / 30,
             Create(cursor),
             secuencia=[Transform(cursor, marcar(b)), AnimationGroup(Create(puente), FadeOut(flechas[0]), FadeOut(flechas[1])), AnimationGroup(FadeOut(b), FadeOut(cursor))])
-        self.mostrar_parte(4,
+        self.mostrar_parte(94 / 30,
             Transform(cabeza, self.cabeza(c)),
             secuencia=[AnimationGroup(FadeOut(a), FadeOut(puente))])
         nota = VGroup(texto('Reconectar: O(1), con el anterior localizado', 25, VERDE),
             texto('Localizar: O(n) en el peor caso', 25, AMARILLO)).arrange(DOWN,
             buff=0.25).move_to([0, -1.25, 0])
-        self.mostrar_parte(7.857, FadeIn(nota))
+        self.mostrar_parte(127 / 30, FadeIn(nota))
 
         limpiar_escena(5, 'Simple y doblemente enlazada')
         nodos, flechas, fin, cabeza = crear_lista()
         a, b, c = nodos
-        self.mostrar_parte(5, *[Indicate(l) for l in flechas])
+        self.mostrar_parte(93 / 30, *[Indicate(l) for l in flechas])
         self.play(FadeOut(cabeza), run_time=0.3)
         flechas_atras = [Arrow(derecha.get_left() + DOWN * 0.23, izquierda.get_right() + DOWN * 0.23, buff=0.12, color=AMARILLO) for izquierda,
             derecha in zip(nodos, nodos[1:])]
@@ -220,10 +222,10 @@ class LinkedListLesson(Scene):
         referencias_extra = VGroup(*[Dot(n.get_left() + RIGHT * 0.18 + DOWN * 0.22, radius=0.055, color=AMARILLO) for n in nodos])
         nulo_anterior = texto('null', 22, GRIS).move_to([-5.9, 0, 0])
         extremo = VGroup(Arrow(a.get_left(), nulo_anterior.get_right(), buff=0.12, color=AMARILLO), nulo_anterior)
-        self.mostrar_parte(7.143, *[Create(l) for l in flechas_atras], FadeIn(referencias_extra), FadeIn(extremo))
+        self.mostrar_parte(119 / 30, *[Create(l) for l in flechas_atras], FadeIn(referencias_extra), FadeIn(extremo))
         nota = texto('siguiente + anterior = una referencia extra por nodo', 25, AMARILLO).move_to([0, -1.35, 0])
         cursor = marcar(a)
-        self.mostrar_parte(6.786,
+        self.mostrar_parte(166 / 30,
             FadeIn(nota),
             Create(cursor),
             secuencia=[Transform(cursor, marcar(b)), Transform(cursor, marcar(c)), Transform(cursor, marcar(b)), Transform(cursor, marcar(a))])
@@ -231,33 +233,33 @@ class LinkedListLesson(Scene):
         limpiar_escena(6, 'Circular: el último vuelve al primero')
         nodos, flechas, fin, cabeza = crear_lista()
         a, b, c = nodos
-        self.mostrar_parte(4, Indicate(VGroup(*nodos)))
+        self.mostrar_parte(82 / 30, Indicate(VGroup(*nodos)))
         vuelta = CurvedArrow(c.get_bottom() + DOWN * 0.1,
             a.get_bottom() + DOWN * 0.1,
             angle=-PI / 3,
             color=AMARILLO)
-        self.mostrar_parte(4, FadeOut(fin), FadeOut(flechas[2]), Create(vuelta))
+        self.mostrar_parte(82 / 30, FadeOut(fin), FadeOut(flechas[2]), Create(vuelta))
         nota = texto('Puede ser simple o doble', 27, VERDE).move_to([0, 1.4, 0])
-        self.mostrar_parte(4, FadeIn(nota))
+        self.mostrar_parte(82 / 30, FadeIn(nota))
         parada = texto('Parar al volver al nodo inicial', 27, AMARILLO).move_to(nota)
         cursor = marcar(a)
-        self.mostrar_parte(6.429,
+        self.mostrar_parte(149 / 30,
             ReplacementTransform(nota, parada),
             Create(cursor),
             secuencia=[Transform(cursor, marcar(b)), Transform(cursor, marcar(c)), Transform(cursor, marcar(a))])
 
         limpiar_escena(7, 'Aplicaciones: pila y cola')
         pregunta = texto('¿Cómo necesitamos acceder a los datos?', 35, VERDE)
-        self.mostrar_parte(4, FadeIn(pregunta))
+        self.mostrar_parte(82 / 30, FadeIn(pregunta))
         self.play(FadeOut(pregunta), run_time=0.3)
         nodos, flechas, fin, cabeza = crear_lista()
         a, b, c = nodos
         etiqueta = texto('PILA · insertar y retirar por el inicio', 29, AMARILLO).move_to([0, -1.25, 0])
-        self.mostrar_parte(6.429, FadeIn(etiqueta), Indicate(cabeza), secuencia=[Indicate(a, color=AMARILLO)])
+        self.mostrar_parte(123 / 30, FadeIn(etiqueta), Indicate(cabeza), secuencia=[Indicate(a, color=AMARILLO)])
         final = texto('final', 24, AMARILLO).move_to(c.get_top() + UP * 0.9)
         flecha_final = Arrow(final.get_bottom(), c.get_top(), buff=0.1, color=AMARILLO)
         etiqueta_cola = texto('COLA · retirar al inicio / agregar al final', 29, VERDE).move_to(etiqueta)
-        self.mostrar_parte(5.357,
+        self.mostrar_parte(123 / 30,
             ReplacementTransform(etiqueta, etiqueta_cola),
             FadeIn(final),
             Create(flecha_final),
@@ -269,7 +271,7 @@ class LinkedListLesson(Scene):
         nombres = VGroup(*[texto(t, 27).move_to(p) for t, p in zip(['Inicio', 'Artículo', 'Perfil'], paginas)])
         flechas = VGroup(*[DoubleArrow(paginas[i].get_right(), paginas[i + 1].get_left(), buff=0.1, color=AMARILLO) for i in range(2)])
         cursor = marcar(paginas[1])
-        self.mostrar_parte(6.429,
+        self.mostrar_parte(136 / 30,
             FadeIn(paginas),
             FadeIn(nombres),
             Create(flechas),
@@ -281,7 +283,7 @@ class LinkedListLesson(Scene):
             self.crear_flecha(jugadores[1], jugadores[2]),
             CurvedArrow(jugadores[2].get_bottom() + DOWN * 0.1, jugadores[0].get_bottom() + DOWN * 0.1, angle=-PI / 3, color=AMARILLO))
         cursor = marcar(jugadores[0])
-        self.mostrar_parte(6.429,
+        self.mostrar_parte(149 / 30,
             *[FadeIn(p) for p in jugadores],
             Create(flechas_turnos),
             Create(cursor),
@@ -289,16 +291,16 @@ class LinkedListLesson(Scene):
 
         limpiar_escena(9, 'Elegir según el recorrido y los cambios')
         nodos, flechas, fin, cabeza = crear_lista()
-        self.mostrar_parte(4.286, *[Indicate(n) for n in nodos])
+        self.mostrar_parte(85 / 30, *[Indicate(n) for n in nodos])
         nota = texto('Ventaja: ajustar conexiones en un lugar conocido', 26, VERDE).move_to([0, -1.25, 0])
-        self.mostrar_parte(6.429, FadeIn(nota))
+        self.mostrar_parte(110 / 30, FadeIn(nota))
         limite = texto('Límite: acceder a una posición requiere recorrer', 26, AMARILLO).move_to(nota)
-        self.mostrar_parte(6.429, ReplacementTransform(nota, limite), secuencia=[Indicate(n) for n in nodos])
+        self.mostrar_parte(149 / 30, ReplacementTransform(nota, limite), secuencia=[Indicate(n) for n in nodos])
         self.play(*[FadeOut(o) for o in [*nodos, *flechas, fin, cabeza, limite]], run_time=0.4)
         tipos = VGroup(texto('SIMPLE', 34, VERDE),
             texto('DOBLE', 34, AMARILLO),
             texto('CIRCULAR', 34, VERDE)).arrange(RIGHT,
             buff=1.25)
         resumen = texto('Dirección del recorrido · inserciones · eliminaciones', 26, GRIS).move_to([0, -1.1, 0])
-        self.mostrar_parte(6.071, FadeIn(tipos), FadeIn(resumen))
-        self.wait(1.5)
+        self.mostrar_parte(106 / 30, FadeIn(tipos), FadeIn(resumen))
+        self.wait(55 / 30)

@@ -10,7 +10,7 @@ Primero se presenta la estructura de una lista enlazada: sus nodos, la cabeza y 
 
 También se muestran las listas doblemente enlazadas y las listas circulares. Para los ejemplos se mencionan casos como el historial de navegación y los turnos de una partida.
 
-El resultado principal es `LinkedListLesson_2K.mp4`, con una resolución de **2560 × 1440 píxeles** y **30 fps**. También se incluye una versión en formato MPEG, `LinkedListLesson.mpg`.
+El resultado principal es `LinkedListLesson_2K.mp4`, con una duración de **2 minutos y 30 segundos**, una resolución de **2560 × 1440 píxeles** y **30 fps**. También se incluye una versión en formato MPEG, `LinkedListLesson.mpg`.
 
 ## Animación del recorrido
 
@@ -37,7 +37,7 @@ Además, `crear_lista()`, `limpiar_escena()` y `marcar()` ayudan a preparar cada
 
 La clase `TextoGuardado` permite reutilizar los textos SVG guardados en `media/texts/`.
 
-La duración y el orden de las animaciones están definidos directamente en `linked_list.py`. Por ejemplo, `mostrar_parte(4, ...)` reserva aproximadamente cuatro segundos para una sección. Este programa está hecho para generar el video del proyecto, no para recibir listas introducidas por el usuario.
+La duración y el orden de las animaciones están definidos directamente en `linked_list.py`. Los tiempos de `mostrar_parte()` se expresan como fotogramas divididos entre 30; las pausas se ajustan a fotogramas completos para obtener un total de 150 segundos a 30 fps. Este programa está hecho para generar el video del proyecto, no para recibir listas introducidas por el usuario.
 
 ## Conceptos utilizados
 
@@ -54,7 +54,6 @@ En una lista doble se puede avanzar y retroceder porque cada nodo tiene dos refe
 - `requirements.txt`: versión de Manim utilizada.
 - `media/texts/`: archivos SVG con los textos de la animación.
 - `media/indice_textos.json`: relaciona los nombres de los textos con sus archivos SVG.
-- `linked_list.srt`: subtítulos de una versión anterior; no son necesarios para ejecutar el programa.
 - `LinkedListLesson_2K.mp4` y `LinkedListLesson.mpg`: videos finales.
 
 ## Ejecución
