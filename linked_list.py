@@ -108,6 +108,12 @@ class LinkedListLesson(Scene):
             texto('Linked list', 34),
             texto('Nodos · referencias · operaciones', 24, GRIS)).arrange(DOWN,
             buff=0.45)
+        integrantes = VGroup(
+            texto('Integrantes', 22, VERDE),
+            texto('Juan Diego Mejia Armas', 26),
+            texto('Marcelo Rosillo Rodriguez', 26),
+        ).arrange(DOWN, buff=0.2)
+        titulo = VGroup(titulo, integrantes).arrange(DOWN, buff=0.65)
         self.add(titulo)
         self.wait(5)
         self.remove(titulo)
